@@ -1,8 +1,3 @@
---[[
-   Credit to Polarrr#0001 for original script (it's been moddied quite a bit to support loadstrings)
-   https://v3rmillion.net/member.php?action=profile&uid=2340618
---]]
-
 local lib = {}
 local Folder = Instance.new("Folder", game:GetService("CoreGui"))
 
