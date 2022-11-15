@@ -54,7 +54,7 @@ function lib:AddNameTag(game.Players.Tired_Aizen.Character)
    TextLabel.TextScaled = false
 end
 
-function lib:ClearESP()
+function lib:ClearESP2()
    for i,v in pairs(Folder:GetChildren()) do
       v:Destroy();
    end
