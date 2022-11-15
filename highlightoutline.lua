@@ -54,6 +54,7 @@ function lib:AddNameTag(Character)
 end
 
 
+wait(0.5)
 
 
 function lib:AddOutline(game["Tired_Aizen"].Character, OutlineFill)
