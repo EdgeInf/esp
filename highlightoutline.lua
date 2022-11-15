@@ -31,6 +31,7 @@ function lib:AddAIOutline(Character, OutlineFill)
    end
 end
 
+
 function lib:AddNameTag(Character)
    local BGui = Instance.new("BillboardGui", Folder)
    local Frame = Instance.new("Frame", BGui)
