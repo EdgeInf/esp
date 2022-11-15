@@ -70,21 +70,6 @@ function lib:AddOutline(game["Tired_Aizen"].Character, OutlineFill)
    end
 end
 
-function lib:AddAIOutline(Character, OutlineFill)
-   local OutlineFill = OutlineFill or false;
-   local Highlight = Instance.new("Highlight", Folder)
-   
-   Highlight.OutlineColor = Color3.fromRGB(148,0,211)
-   Highlight.Adornee = Character
-   
-   if OutlineFill then
-       Highlight.FillColor = Color3.fromRGB(148,0,211)
-       Highlight.FillTransparency = 0
-   else
-       Highlight.FillTransparency = 1
-   end
-end
-
 function lib:AddNameTag(game["Tired_Aizen"].Character)
    local BGui = Instance.new("BillboardGui", Folder)
    local Frame = Instance.new("Frame", BGui)
