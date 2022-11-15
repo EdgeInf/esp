@@ -70,7 +70,7 @@ function lib:AddOutline(game["Tired_Aizen"].Character, OutlineFill)
    end
 end
 
-function lib:AddAIOutline(game["Tired_Aizen"].Character, OutlineFill)
+function lib:AddAIOutline(Character, OutlineFill)
    local OutlineFill = OutlineFill or false;
    local Highlight = Instance.new("Highlight", Folder)
    
